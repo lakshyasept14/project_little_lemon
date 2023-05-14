@@ -36,7 +36,7 @@ describe('Booking form', () => {
 
     expect(occasionSelect).toBeInTheDocument();
     expect(occasionSelect).toHaveAttribute('id', 'booking-occasion');
-    expect(occasionOptions.length).toBe(2);
+    expect(occasionOptions.length).toBe(3);
 
     expect(submitButton).toBeInTheDocument();
     expect(submitButton).toHaveAttribute('type', 'submit');
